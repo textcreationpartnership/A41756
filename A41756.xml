@@ -1,0 +1,401 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Grand imposture, or, The mystery of iniquity a satyr.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A41756</idno>
+            <idno type="STC">Wing G1497</idno>
+            <idno type="STC">ESTC R16312</idno>
+            <idno type="EEBO-CITATION">11854068</idno>
+            <idno type="OCLC">ocm 11854068</idno>
+            <idno type="VID">49947</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A41756)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49947)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 31:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Grand imposture, or, The mystery of iniquity a satyr.</title>
+               </titleStmt>
+               <extent>[2], 2 [i.e. 6] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>First ed.</note>
+                  <note>Reproduction of original in Harvard University Libraries.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Religious satire, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-12</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-12</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:49947:1"/>
+            <pb facs="tcp:49947:1" rendition="simple:additions"/>
+            <p>THE GRAND IMPOSTURE: OR THE MYSTERY OF INIQUITY:</p>
+            <p>A SATYR.</p>
+            <q xml:lang="lat">
+               <l>Triſtius haud illis Monſtrum, nec ſaevior ulla Pestis—</l>
+               <bibl>Virg. Aeneid. lib. 3.</bibl>
+            </q>
+            <p>
+               <hi>London,</hi> Printed <hi>Anno</hi> 1679.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:49947:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:49947:2"/>
+            <head>THE Grand Impoſture OR THE MYSTERY OF INIQUITY.</head>
+            <lg>
+               <l>ASCEND <hi>Alecto</hi> from thy Den, and come</l>
+               <l>Juſt as thou look'ſt in that Infernal Home;</l>
+               <l>Fell Fury fire my Fancy, for I have</l>
+               <l>More cauſe then Poet e're had yet to rave;</l>
+               <l>Thou art my Muſe, thy Snakes my Lawrels are,</l>
+               <l>By me thine own, and <hi>Rome's</hi> Intrigues declare:</l>
+               <l>Do it for once, then back to Hell retire,</l>
+               <l>And pay the Jeſuits their Arrears of Fire.</l>
+               <l>A Jeſuit great Satan's Envoy is</l>
+               <l>Sent to ſucceed the Snake of Paradiſe:</l>
+               <l>For when that fatal ſtroke of <hi>Adam's</hi> loſs</l>
+               <l>Was healed by the great <hi>Theanthropos,</hi>
+               </l>
+               <l>When that deep Stratagem of the dark Throne</l>
+               <l>Myſterious <hi>Meſſiah</hi> had undone;</l>
+               <l>And that firſt Argument of helliſh Power</l>
+               <l>Was quite confuted by a Saviour,</l>
+               <l>Then baffled <hi>Lucifer,</hi> no Anſwer had,</l>
+               <l>Till He a Jeſuit his rejoynder made;</l>
+               <l>By whom he hopes compleatly to renew</l>
+               <l>The Battle, and once more mankind undo;</l>
+               <l>Plotting his old Dominion to make good</l>
+               <l>By falſe implicit Faith, or fire and blood;</l>
+               <l>That catches Fools, and theſe deſtroy the Wiſe,</l>
+               <l>Thus all mankind, are equally his Prize.</l>
+               <pb n="2" facs="tcp:49947:3"/>
+               <l>"Shut your Eyes cloſe, believe me, and you'll ſee</l>
+               <l>"(Th' <hi>Ignatian</hi> cryes) the way t' Eternity;</l>
+               <l>"Deny all Reaſon, misbelieve your Senſe,</l>
+               <l>"Church cannot Err, be that your Confidence:</l>
+               <lg>
+                  <l>"Pin on our Sleeve your Faith, and thô you'r blind</l>
+                  <l>"Take but faſt hold, and follow us behind,</l>
+                  <l>"Our open Eyes the way for both will find.</l>
+               </lg>
+               <l>"This Wine and Wafer now are common food,</l>
+               <l>"But a few words ſhall make 'em Fleſh and Blood,</l>
+               <lg>
+                  <l>"And thô they after all the ſame appear,</l>
+                  <l>"And out of Modeſty th' old Livery wear,</l>
+                  <l>"Yet is Chriſt's very Blood and Body here.</l>
+               </lg>
+               <l>Such plain Impoſtures, ſuch bold Cheats as theſe</l>
+               <l>Can ſurely none, but fools, or mad men pleaſe.</l>
+               <l>The Snake of Paradiſe play'd fairer far</l>
+               <l>With <hi>Adam</hi>'s Wife, and more upon the Square,</l>
+               <l>He call'd an Apple, Apple, ſaid 'twas good,</l>
+               <l>Pleaſant to th' ſight, and delicate for food;</l>
+               <l>The Jeſuits Tricks would ne're have ta'n with <hi>Eve,</hi>
+               </l>
+               <l>She ſaw what's what, before ſhe did believe,</l>
+               <l>Beſides he pleaded that 'twould make her wiſe,</l>
+               <l>But theſe, the groſſeſt ignorance adviſe.</l>
+               <l>And thus we loſe our ſelves, b' a greater Cheat</l>
+               <l>Then what the Serpent us'd in <hi>Eve</hi>'s defeat;</l>
+               <l>Thus we our ſenſe and reaſon lay aſide</l>
+               <l>To take an old ambitious Fool for Guide,</l>
+               <l>Thus we turn Stocks and Ideots, and then</l>
+               <l>Become good Cath'licks, ceaſing to be men;</l>
+               <l>As if the only way to ſave our Souls,</l>
+               <l>Were, to be eaſie Slaves or ſenceleſs fools.</l>
+               <l>To all this fond credulity we're hurl'd</l>
+               <l>By ſlaviſh fears about the burning world,</l>
+               <l>So to be ſure to feel no torment there,</l>
+               <l>Firſt ſtrip our ſelves of all our ſenſes here.</l>
+               <l>Now, my <hi>Alecto,</hi> let's advance and view</l>
+               <l>The Frauds that lurk under Religious ſhew,</l>
+               <l>For thô to Heav'n their fair pretences ſwell,</l>
+               <l>The Root lies deep and dark as is thy Cell.</l>
+               <l>No Heathen Law-giver, no Pagan Prieſt;</l>
+               <l>Did e're with ſuch myſterious Wiles infeſt</l>
+               <l>The ſuperſtitious Multitude, for that</l>
+               <l>Is ſtill moſt apt to fear they know not what.</l>
+               <l>No Cabaliſt of State could e're Trapan</l>
+               <l>With ſuch firm ſubtlety as <hi>Rome</hi>'s <hi>Divan.</hi>
+               </l>
+               <l>And firſt, leaſt holy Church ſhould chance to float</l>
+               <l>(Without a laſt appeal) in endleſs doubt,</l>
+               <lg>
+                  <pb n="3" facs="tcp:49947:3"/>
+                  <l>You muſt with dumb obedience ſtill repair.</l>
+                  <l>Unto <hi>Rome's</hi> holy Apoſtolick Chair,</l>
+                  <l>That, that's infallible and cannot erre.</l>
+               </lg>
+               <l>This bold Aſſumption keeps more in Awe</l>
+               <l>Then <hi>Numa</hi> with his feign'd <hi>Egeria.</hi>
+               </l>
+               <l>And thô it ſeems at points of Faith to aime,</l>
+               <l>'Tis to be uncontroulably Supreame;</l>
+               <l>Get univerſal deference, and create</l>
+               <l>A cloſe dependance on the Roman Seat.</l>
+               <lg>
+                  <l>Branding on all damnable Hereſie,</l>
+                  <l>That dare oppoſe the Apoſtolick See,</l>
+                  <l>Or <hi>Rome's</hi> Political Divinity.</l>
+               </lg>
+               <l>Thus it uſurps boundleſs dominion,</l>
+               <l>Makes Kings their ſubject's, ſlaves, and both it's own.</l>
+               <l>
+                  <hi>Rome</hi>'s doctrine is a ſecular device,</l>
+               <l>Mere trick of ſtate in reverend diſguiſe,</l>
+               <l>Th' ambitious ſpawn of latter Centuries:</l>
+               <l>And thô it proudly boaſt an ancient Line,</l>
+               <l>From <hi>Peter,</hi> 'tis of baſeſt Origine;</l>
+               <l>'Tis the Prieſt's ſpurious Iſſue, gotten on</l>
+               <l>Ignorance, Fear and Superſtition:</l>
+               <l>Theſe three compleatly make the triple Crown,</l>
+               <l>And ſtill ſupport old <hi>Rome's</hi> imperial Throne.</l>
+               <l>How ſlily do the Prieſts by help of theſe</l>
+               <l>Make men believe, and then do what they pleaſe?</l>
+               <l>How ſolemnly they dazle Vulgar eies</l>
+               <l>With fine miſterious holy Vanities?</l>
+               <l>Whoſe ceremonious pomp ſtrikes awful dread</l>
+               <l>In fools, that by their eies and ears are lead.</l>
+               <l>But ſhould I here endeavour to declare,</l>
+               <l>The num'rous Gimcracks of the Romiſh Fair,</l>
+               <l>Their Myſtick Idols, conſecrated Bawbles,</l>
+               <l>Feign'd Miracles, and monſtrous holy Fables;</l>
+               <l>How dead Saints relicks cure the Gout or Ptiſick,</l>
+               <l>And are, like <hi>Egypt's</hi> Mummy, kept for Phyſick;</l>
+               <l>How they can ſcare the Devil with a ſtench,</l>
+               <l>(Not that <hi>Tobias</hi> us'd to get the Wench:</l>
+               <l>In telling this I might as teedious be</l>
+               <l>As the returne of their next Jubilee.</l>
+               <l>But theſe are Petty trifles, tiney toys,</l>
+               <l>Tricks to catch Women, gaping Fools and Boys;</l>
+               <l>They have devices of a larger ſize,</l>
+               <l>Traps to enſnare the Wary and the Wiſe:</l>
+               <lg>
+                  <l>And if you chance to boggle at the bait,</l>
+                  <l>They curſe, and cry, damnation be your fate,</l>
+                  <l>And then you ſwallow it at any rate.</l>
+               </lg>
+               <pb n="4" facs="tcp:49947:4"/>
+               <l> Oh! what a melancholy diſmal ſtory</l>
+               <l>They roar in dying Ears of Purgatory;</l>
+               <l>That rather than th' affrighted wretch will burn</l>
+               <l>So long, Hee'll all his Gold to Maſſes turn:</l>
+               <l>Thus Eccleſiaſtick Chymiſts (you'ld admire)</l>
+               <l>Make real Gold by a fictitious Fire.</l>
+               <l>Next extreame unction comes, from whence the Prieſt</l>
+               <l>Gets the moſt good, by greaſing in the Fiſt.</l>
+               <l>But of all cheats that neceſſary are</l>
+               <l>Unto ſalvation, Auricular</l>
+               <l>Confeſſion bears the bell, and ſeems to me</l>
+               <l>Next to infallible Supremacy;</l>
+               <l>It wears a holy Ueile, but underneath</l>
+               <l>Is ſhame and ſlavery far worſe than death.</l>
+               <l>The Prieſt may tyrannize without controul,</l>
+               <l>That knows the guilty ſecret of the ſoul.</l>
+               <lg>
+                  <l>So when the gentle ſex confeſſion makes,</l>
+                  <l>That they have often ſin'd upon their backs,</l>
+                  <l>How eaſily the Prieſt coms in for ſnacks?</l>
+               </lg>
+               <l>And ſhireves the pretty Penitent <hi>A la mode,</hi>
+               </l>
+               <l>No trick like a <hi>jure divino</hi> Fraud:</l>
+               <lg>
+                  <l>Thus are their chiefeſt Doctrines, plain device,</l>
+                  <l>Pimp to their Pride, their Luſt and Avarice</l>
+                  <l>In holy Apoſtolical diſguiſe.</l>
+               </lg>
+               <l>In ſhort, the whole miſterious Cheat doth lie</l>
+               <l>In ſuperſtition and Idolatry,</l>
+               <l>Two ſpurious Graffts—</l>
+               <l>Set in the tree of life, Religion,</l>
+               <l>With whoſe Luxurious branches 'tis or'e grown</l>
+               <l>To ſuch a monſtrous diſproportion,</l>
+               <l>That the firſt planters would it quite diſown.</l>
+               <lg>
+                  <l>Religion, like a modeſt rural mayd,</l>
+                  <l>No artificial dreſſe no <hi>fucus</hi> had</l>
+                  <l>But was in native Innocency clad,</l>
+               </lg>
+               <l>Till in <hi>Romes</hi> Court ſhe ceaſed to be ſuch,</l>
+               <l>Thence, ſprang her Infamy and firſt debauch;</l>
+               <l>There, laying plain ſimplicity aſide,</l>
+               <l>She grew to idle wantonnes and Pride:</l>
+               <l>Yet ſtill ſome modeſty confin'd her Home,</l>
+               <l>Nor rambled ſhe beyond the Walls of <hi>Rome;</hi>
+               </l>
+               <l>Till Proud of her ſuccesful charms, ſhe grew</l>
+               <l>Ambitious mighty Monarchs to ſubdue;</l>
+               <l>So by deceitful arts ſhe inlarg'd her pow'r,</l>
+               <l>And made them ſlaves, that ſh' had ſerv'd before.</l>
+               <l>At length her lawleſs Pride gave ſome miſtruſt,</l>
+               <l>And that increas'd by her inſatiate Luſt.</l>
+               <pb n="5" facs="tcp:49947:4"/>
+               <l> She grew imperious, asked more and more,</l>
+               <l>And would be Tyrant too, as well as Whore.</l>
+               <l>Then wiſely ſome the Vaſſalage forſook,</l>
+               <l>Others repin'd as weary of the Yoke:</l>
+               <l>She, Jealous leſt her Univerſal ſway</l>
+               <l>Shold leſſen, or her former fame decay,</l>
+               <l>'Mongſt others, did the Schoolmens Pen imploy</l>
+               <l>To Vindicate her truth and honeſty,</l>
+               <l>(Schoolmen, who ranſack ſciences and Arts</l>
+               <l>To prove with pains, that they are Fools of parts;</l>
+               <l>A knack to Coyn unmeaning words they've got,</l>
+               <l>Falſe words that w'ont endure the teſt of thought:</l>
+               <l>Diſtinction's their laſt refuge and appeal,</l>
+               <l>The better, if unintelligible)</l>
+               <l>So theſe her honour juſtifi'd in words,</l>
+               <l>As Bully Jeſuits Plot to doe with ſwords.</l>
+               <l>But both in vain, for 'tis concluded on</l>
+               <l>Their Miſtreſs is the Whore of <hi>Babylon.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Shift, ſhift the Scenes, <hi>Alecto,</hi> fury Fiend</l>
+               <l>Wake all thy Snakes, and make this Tragick end;</l>
+               <l>By Helliſh Art raiſe up in dark Cabal,</l>
+               <l>The Pope, a Jeſuit and Cardinal.</l>
+               <l>Thy ſelf place in the middle, raving Wood,</l>
+               <l>With Poyſons, Piſtols, Daggers, Fire and Blood.</l>
+               <l>Now let this Scene ſtart into ſudden ſight</l>
+               <l>By gloomy Flaſhes of Sulphureous light;</l>
+               <l>Then let his Holineſs's face appear</l>
+               <l>Full of deep Counſel, thought and weighty Care.</l>
+               <l>Whilſt each of you in awful ſilence hears</l>
+               <l>The ſacred Oracle with hungry Ears.</l>
+               <l>"Was it for this my boundleſs power was giv'n?</l>
+               <l>"For this have I the Keys of Hell and Heaven?</l>
+               <l>"In vain I boaſt of a Supremacy,</l>
+               <l>"And call my Chair the Univerſal See.</l>
+               <l>"A little Neſt of Hereticks cut off</l>
+               <l>"From <hi>Europes</hi> Earth, at all my Pow'r doth laugh.</l>
+               <lg>
+                  <stage>
+                     <note place="margin">Turning to the Jeſuit.</note>
+                  </stage>
+                  <l>"Who (thô they kindly could decline to be</l>
+                  <l>"A Bar to Ballance <hi>Gallick</hi> Monarchy,</l>
+                  <l>"Yet) ſtill oppoſe my holy Tyranny.</l>
+               </lg>
+               <lg>
+                  <l>"Falſe Agents, heartleſs, traiterous, have you</l>
+                  <l>"So often ſworn by Sacramental Vow</l>
+                  <l>"Or to Convert this Iſland or undo?</l>
+               </lg>
+               <l>"Was your Commiſſion ſcant, did I deny</l>
+               <l>"Plenipotentiary Villany?</l>
+               <pb n="2" facs="tcp:49947:5"/>
+               <l> Have not I null'd Divine and Humane Laws,</l>
+               <l>That without let you might promote the Cauſe?</l>
+               <l>"Heavens Laws, thô fixt by an Eternal Seal,</l>
+               <l>"Stoop, and are liable to my repeal.</l>
+               <l>"<hi>Moſes</hi> once broke theſe Tables, often I</l>
+               <l>"Not to prevent, but fix Idolatry.</l>
+               <l>"Thus had your large Commiſſion no reſtraint,</l>
+               <l>"Nor did you Apoſtolick Bleſſing want.</l>
+               <l>"Nay more, the blackeſt Crimes in you were merit,</l>
+               <l>"For which all other endleſs flames inherit:</l>
+               <l>"So Treaſons, Murders, Perjuries became</l>
+               <l>"Sure Monuments of your Eternal Fame;</l>
+               <l>"So nature chang'd her courſe, yet nothing's done,</l>
+               <l>"T'advance the Catholick Religion.</l>
+               <l>"Be gone Slave, fly; Delude with crafty words,</l>
+               <l>"If they prove vain, uſe poyſon, Fire and Swords:</l>
+               <l>"Make better work on't, or I ſwear by th' Maſs</l>
+               <l>"And the Divinity of Holy Croſs—</l>
+            </lg>
+            <lg>
+               <l>Theſe chance unlucky words broke all the Spell,</l>
+               <l>They vaniſh'd, and <hi>Alecto</hi> ſunk to Hell.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:49947:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
